@@ -1,0 +1,281 @@
+@font-face {
+    font-family: lato;
+    src: url("lato/Lato-Light.ttf");
+}
+
+*{
+	font-family: lato;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body{
+	/*background-color: #2c5871;*/
+	background-image: url("../img/presse3.png");
+	background-size: 100%;
+
+}
+
+.container{
+	background-color: #2c5871;
+	margin-top: 30px;
+	margin-bottom: 30px;
+    border: 7px solid #38A7C7;
+}
+
+.container .msgErr {
+	text-align: center;
+    margin-top: 10px;
+}
+
+.glyphicon-ban-circle{
+	color: #b52426;
+}
+
+footer{
+    position: absolute;
+    height: 20px;
+    margin-bottom: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+}
+
+footer p{
+	bottom: 0;
+	display: block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+label{
+	font-size: 16px;
+}
+
+fieldset{
+	padding-bottom: 50px;
+}
+
+#myNavBar{
+	background-color: #38A7C7;
+	border-bottom: solid black 1px;
+}
+
+#myNavBar a{
+	font-size: 20px;
+}
+
+#ajouterClient:hover span{
+	transform: rotateY(360deg);
+	transition: all 0.3s linear 0s;
+}
+
+#produitsMenu:hover span{
+	transform: rotateY(360deg);
+	transition: all 0.3s linear 0s;
+}
+
+#clients:hover span{
+	transform: rotateY(360deg);
+	transition: all 0.3s linear 0s;
+}
+
+#clientA:hover span{
+	transform: rotateY(360deg);
+	transition: all 0.3s linear 0s;
+}
+
+#decoA:hover span{
+	transform: rotateY(360deg);
+	transition: all 0.3s linear 0s;
+}
+
+#myNavBar span{
+	top:0;
+}
+
+#logo{
+	width: 100px;
+	margin-top: 0px;
+}
+
+#logoNav{
+	padding-top: 0px;
+}
+
+#eyeGlyph{
+	color: #000000;
+}
+
+#myTable tbody tr{
+	border-top: 2px solid;
+}
+
+.table-hover thead tr{
+	border-bottom: 2px solid;	
+}
+
+#myTable .glyphTd:hover span{
+	transform: rotateY(360deg);
+	transition: all 0.3s linear 0s;
+}
+
+#myTable .supprTd:hover span{
+	transform: rotateY(360deg);
+	transition: all 0.3s linear 0s;
+}
+
+#pencilGlyph{
+	color: #8dc63f;
+}
+
+.glyphicon-trash{
+	color: #b52426;
+}
+.glyphicon-trash:hover{
+	cursor: pointer;
+}
+
+#trashGlyph:hover{
+	cursor: pointer;
+}
+
+#myTable tbody tr:hover{
+	background-color: #38A7C7;
+	/*cursor: pointer;*/
+}
+
+/*#myTable{
+	font-size: 19px;
+}*/
+
+.table{
+	font-size: 16px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.table th{
+	text-align: center;
+}
+.table-striped td{
+	text-align: right;
+}
+
+.editableDiv{
+	text-align: center;
+	font-size: 22px;
+}
+
+/*#nouveauProd{
+	display: none;
+}*/
+
+.input-group{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media only screen and (min-width: 768px){
+	#detailsDiv{
+		padding-right: 300px;
+		padding-left: 300px;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	#detailsDiv{
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	#editableTable td{
+		width: 250px;
+	}
+}
+
+h2{
+	text-align: center;
+}
+
+#myNavBar a:hover,a:focus{
+	background-color:#2c5871;
+}
+
+#editableTable th{
+	width: 185px;
+}
+
+#detailsTable th{
+	text-align: left;
+}
+
+.commDiv td{
+	text-align: left; 
+}
+
+#myMobileTable a{
+	text-decoration: none;
+}
+
+@media only screen and (min-width: 768px){
+	#myMobileTable{
+		display:none;
+		border: 2px solid black;
+	}
+}
+
+@media only screen and (max-width: 770px){
+	#clientsTable #myMobileTable{
+		display:table;
+		/*font-size: 20px;*/
+		width: 100%;
+		margin: auto;
+	}
+	#clientsTable #myMobileTable tbody tr{
+		border-top: 2px solid;
+	}
+	#clientsTable #myMobileTable tbody tr{
+		cursor: pointer;
+	}
+	#myTable{
+		display: none;
+	}
+}
+
+.glyphicon-menu-up:hover{
+	cursor: pointer;
+}
+
+#newComm:hover{
+	cursor: pointer;
+}
+
+#formUser{
+	display: none;
+}
+
+.commDiv{
+	display:none;
+}
+
+.newCommTr{
+	display:none;
+}
+
+.newComment{
+	width:20em;
+}
+
+@media only screen and (max-width: 440px){
+	.newComment{
+		width:10em;
+	}
+	.newCommTr{
+		width:100%;
+		margin:auto;
+	}
+}
